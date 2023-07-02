@@ -1,7 +1,7 @@
 console.clear()
 
 
-//Que - 1 Breadth First Traversal for a Graph ========================================
+//Que - 1 Breadth First Traversal for a Graph 
 
 const airports = 'PHX BKK OKC JFK LAX MEX EZE HEL LOS LAP LIM'.split(' ');
 
@@ -75,8 +75,7 @@ bfs('PHX')
 
 
 
-//Que - 2 Depth First Traversal for a Graph ========================================
-
+//Que - 2 Depth First Traversal for a Graph 
 function dfs(start, visited = new Set()) {
 
     console.log(start)
@@ -106,7 +105,7 @@ dfs('PHX')
 
 
 
-//Que - 3 Count the number of nodes at given level in a tree using BFS===================
+//Que - 3 Count the number of nodes at given level in a tree using BFS
 
 
 
@@ -204,7 +203,7 @@ document.write(BFS(0, level));
 
 
 
-// Que - 4 Count number of trees in a forest============================
+// Que - 4 Count number of trees in a forest
 
 var Vv; // No. of vertices
  
@@ -274,7 +273,7 @@ document.write(countTrees());
 
 
 
-//Que - 5 Detect Cycle in a Directed Graph==========================
+//Que - 5 Detect Cycle in a Directed Graph
 
 var WHITE = 0, GRAY = 1, BLACK = 2;
  
